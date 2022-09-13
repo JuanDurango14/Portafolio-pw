@@ -1,0 +1,61 @@
+:root{
+/* CSS HEX */
+--purple-navy: #4e598cff;
+--white: #ffffffff;
+--gold-crayola: #f9c784ff;
+--rajah: #fcaf58ff;
+--mango-tango: #ff8c42ff;
+--redon1:360px;
+--margen1:25px;
+--alto1:200px;
+--ancho1:400px;
+}
+body{
+   background-color:var(--gold-crayola);
+}
+
+h1,h2,p {color:var(--white)}
+
+p{
+    color: var(--mango-tango);
+    padding: var(--margen1);
+}
+
+.foto1{
+     width:200px;
+    border-radius: var(--redon1);
+}
+.colorparrafo1{
+    background-color: var(--white);
+    color: var(--purple-navy);
+}
+.ficha1{
+    width:var(--alto1);
+    background-color: var(--gold-crayola);
+    height: var(--alto1);
+    margin: var(--margen1);
+    border-radius: var(--redon1);
+}
+nav{
+    background-color: var(--purple-navy);
+    width: 50%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+button{
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--mango-tango);
+    border-radius: 10px ;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--purple-navy);
+
+}

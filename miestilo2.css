@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    background-image: url(laptoppp-1839876_1280.jpg), url(coding-1853305_1280.jpg);
+    background-size: contain;
+    
+    
+
+}
+
+img{
+    /*Comentarios*/
+    width: 65%;
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-color: azure;
+    padding: 25px;
+    
+
+}
+
+.foto{
+    border-radius: 360px;
+    width: 300px;
+    
+}
+.titulo1{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    color: lightslategrey
+}
+
+.caja1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caja2{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    
+
+    padding: 25px;
+}
+
+.caja3{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.caja4{
+    background-color:rgb(251, 167, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+
+.logos{
+    width: 30%;
+}
+.caja5{
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    line-height: 2%;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 4%;
+
+}
+
+.vec{
+    width: 40px;
+    margin-top: 2%;
+}
+.vec2{
+    width: 30px;
+    margin-top: 4%;
+}
+.caja6{
+    background-color :rgba(220, 220, 220, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content:right ;
+    width: 30%;
+    padding: 3%;
+    margin-left: 60%;
+    border-radius: 25px;
+}
+
+.text1{
+    margin-left: 10px;
+    font-size: 25px ;
+}
+.text2{
+    margin-left: 6%;
+    margin-bottom: 6%;
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+.text3{
+    margin-left: 8%;
+    margin-bottom: 6%;
+    margin-top: 10%;
+    font-size: 16px;
+}
+.text4{
+    padding: 5px;
+}
+.caja7{
+    justify-content: left;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: row;
+    margin-right: 65%;
+    width: 40%;
+    
+}
+#titulo1{
+    font-size: 30px;
+    color: aqua;
+    
+}
+
+.caja8{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.caja9{
+    background-color :rgba(220, 220, 220, 0.6);    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+    border-radius: 25px;
+    margin: 15px;
+    padding: 25px;
+}
+.img-consulta{
+    /*Comentarios*/
+    
+    width: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 5px;
+    padding-left: 70%;
+    
+}
+
+.img-consulta1{
+    /*Comentarios*/
+    border-radius: 80px;
+    width: 18%;
+    margin-left: 400px;
+    
+    
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tablas y formularios</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <h2>Tablas</h2>
+    <table border="1">
+        <tr>
+            <th>
+                Nombre 
+            </th>
+            <th>
+                Apellido 
+            </th>
+            <th>
+                Edad 
+            </th>
+            <th>
+                Correo 
+            </th>
+        </tr>
+
+        <tr>
+            <td>Juan</td>
+            <td>Durango</td>
+            <Td>20 </Td>
+            <td>juanalejandrodurango@hotmail</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>Lopez</td>
+            <Td>24 </Td>
+            <td>pedrolo@hotmail</td>
+        </tr>
+    </table>
+    <br>
+    
+<section><!--comentario-->
+    <h2>Datos Personales</h2>
+    <form action="guardar.php" method="post">
+       <label for="nombres">Nombres</label> <input type="text" placeholder="Digite su nombre" id="nombres" name="nombres">
+       <br>
+       <label for="apellidos">Apellidos</label> <input type="text" value="Jaramillo" id="apellidos" name="apellidos">
+       <br>
+
+       <label for="">Fecha nacimiento</label><input type="date">
+       <label for="">Fecha Hora</label><input type="datetime">
+       <label for="">Correo</label><input type="email">
+       <label for="">Archivo</label><input type="file">
+       <label for="">Mes</label><input type="month">
+       <label for="">Edad</label><input type="number">
+       <label for="">Contraseña</label><input type="password"><i class='bx bxs-dog' ></i>
+       <input type="search">
+
+       <h2>Sexo</h2>
+       <input type="radio" id="sexo" name="sexo"><label for="">Masculino</label>
+       <input type="radio" id="sexo" name="sexo"><label for="">Femenino</label>
+
+       <h2>Deportes</h2>
+       <label for="futbol">Futbol</label><input type="checkbox" id="futbol" name="futbol">
+       <br>
+       <label for="natacion">Natación</label><input type="checkbox" id="natacion" name="natacion">
+       <br>
+       <label for="tenis">Tenis</label><input type="checkbox" id="tenis" name="tenis">
+       <br>
+       <label for="color">Color: </label><input type="color">
+       <hr>
+       <input type="submit">
+       <input type="reset">
+
+       <br>
+       <br>
+       <select name="ciudades">
+        <option value="NA">select</option>
+       </select>
+    </form>
+</section>
+</body>
+</html>
